@@ -1,0 +1,196 @@
+Lista de periódicos na área de Linguística
+==========================================
+:Author: Gustavo Silveira
+:Revision: 12 de fevereiro de 2021
+
+== A1
+
+[horizontal]
+.ALFA: Revista de Linguística
+	Instituição:: UNESP
+	ISSN:: 1981-5794
+	Modalidade de publicação:: fluxo contínuo
+	Formação mínima requerida:: doutor
+	Site:: <https://periodicos.fclar.unesp.br/alfa/index>
+
+[horizontal]
+.Cadernos de Estudos Linguísticos
+	Instituição:: Unicamp
+	ISSN:: 0102-5767
+	Modalidade de publicação:: publicação contínua (_rolling pass_)
+	Formação mínima requerida:: doutor
+	Site:: <https://periodicos.sbu.unicamp.br/ojs/index.php/cel>
+
+[horizontal]
+.DELTA: Documentação de Estudos em Linguística Teórica e Aplicada
+	Instituição:: PUCSP
+	ISSN:: 0102-4450 
+	Modalidade de publicação:: trimestral
+	Formação mínima requerida:: doutor
+	Site:: <https://revistas.pucsp.br/delta>
+
+[horizontal]
+.Revista Linguística
+	Instituição:: ALFAL
+	ISSN:: 2079-312X
+	Modalidade de publicação:: ??
+	Formação mínima requerida:: ??
+	Site:: <https://www.mundoalfal.org/es/pt_revista-linguistica-online>
+
+[horizontal]
+.Journal of Portuguese Linguistics
+	Instituição:: Universidade de Lisboa
+	ISSN:: 2397-5563
+	Modalidade de publicação:: contínua
+	Formação mínima requerida:: ??
+	Site:: <https://jpl.letras.ulisboa.pt/>
+
+
+== A2
+
+[horizontal]
+.Cadernos de Linguagem e Sociedade
+	Instituição:: UnB
+	ISSN:: 0104-9712
+	Modalidade de publicação:: semestral
+	Formação mínima requerida:: doutor
+	Site:: <https://periodicos.unb.br/index.php/les/>
+
+[horizontal]
+.Calidoscópio
+	Instituição:: Unisinos
+	ISSN:: 1679-8740
+	Modalidade de publicação:: quadrimestral
+	Formação mínima requerida:: mestre
+	Site:: <http://revistas.unisinos.br/index.php/calidoscopio>
+
+== B1
+
+[horizontal]
+.Revista de Estudos da Linguagem
+	Instituição:: UFMG
+	ISSN:: 2237-2083
+	Periodicidade:: atemáticos trimestrais de fluxo contínuo
+	Formação mínima requerida:: pós-graduandos
+	Site:: <http://www.periodicos.letras.ufmg.br/index.php/relin/index>
+
+[horizontal]
+.Revista da Abralin
+	Instituição:: Abralin
+	Periodicidade:: dois volumes atemáticos de fluxo contínuo e dois dossiês temáticos por chamada pública
+	ISSN:: 0102-7158
+	Formação mínima requerida:: sem exigência
+	Site:: <https://revista.abralin.org/index.php/abralin>
+
+[horizontal]
+.Domínios da Lingu@gem
+	Instituição:: UFU
+	ISSN:: 1980-5799
+	Periodicidade:: trimestral, dois atemáticos e dois temáticos
+	Formação mínima requerida:: pós-graduando
+	Site:: <http://www.seer.ufu.br/index.php/dominiosdelinguagem>
+
+[horizontal]
+.Estudos da Lingua(gem)
+	Instituição:: UESB
+	ISSN:: 1982-0534
+	Periodicidade:: fluxo contínuo
+	Formação mínima requerida:: doutorandos
+	Site:: <https://periodicos2.uesb.br/index.php/estudosdalinguagem/about>
+
+[horizontal]
+.Estudos Linguísticos (Lisboa)
+	Instituição:: Universidade Nova de Lisboa
+	ISSN:: 1647-0346
+
+[horizontal]
+.Fórum Linguístico
+	Instituição:: UFSC
+	ISSN:: 1415-8698
+	Periodicidade:: trimestral de fluxo contínuo
+	Formação mínima requerida:: doutorando
+	Site:: <https://periodicos.ufsc.br/index.php/forum>
+
+[horizontal]
+.Revista LinguíStica
+	Instituição:: URFJ
+	ISSN:: 1808-835X
+	Periodicidade:: bianual
+	Formação mínima requerida:: sem informação
+	Site:: <https://revistas.ufrj.br/index.php/rl/index>
+
+[horizontal]
+.Revista do GEL
+	Instituição:: GEL
+	ISSN:: 1984-591X
+	Periodicidade:: quadrimestral de fluxo contínuo
+	Formação mínima requerida:: doutor
+	Site:: <https://revistas.gel.org.br/rg>
+
+[horizontal]
+.Revista (Con)Textos Linguísticos
+	Instituição:: UFES
+	ISSN:: 1982-291X 
+	Periodicidade:: quadrimestral
+	Formação mínima requerida:: doutor
+	Site:: <https://periodicos.ufes.br/contextoslinguisticos/>
+
+[horizontal]
+.Veredas - Revista de Estudos Linguísticos
+	Instituição:: UFJF
+	ISSN:: 1982-2243
+	Periodicidade:: semestral
+	Formação mínima requerida:: pós-graduandos
+	Site:: <https://www.ufjf.br/revistaveredas/>
+
+[horizontal]
+.Entrepalavras
+	Instituição:: UFC
+	ISSN::  2237-6321
+	Modalidade de publicação:: trimestral de fluxo contínuo
+	Formação mínima requerida:: sem informação ??
+	Site:: <http://www.entrepalavras.ufc.br/revista/index.php/Revista>
+
+== B2
+
+[horizontal]
+.Estudos Linguísticos (São Paulo)
+	Instituição:: GEL
+	ISSN:: 1413-0939
+	Modalidade de publicação:: anual
+	Formação mínima requerida:: pós-graduando
+	Site:: <https://revistas.gel.org.br/estudos-linguisticos>
+
+[horizontal]
+.Todas as Letras
+	Instituição:: Mackenzie
+	ISSN:: 1980-6914
+	Modalidade de publicação:: contínua
+	Formação mínima requerida:: doutor
+	Site:: <http://editorarevistas.mackenzie.br/index.php/tl>
+
+[horizontal]
+.Cuadernos de la ALFAL
+	Instituição::
+	ISSN:: 2218-076
+	Modalidade de publicação::
+	Formação mínima requerida:: 
+	Site:: https://www.mundoalfal.org/es/pt_cuadernos_alfal
+
+
+
+[horizontal]
+.Confluência
+	Instituição:: Instituto de Língua Portuguesa do Liceu Literário Português
+	ISSN:: 2317-4153 
+	Modalidade de publicação:: semestral
+	Formação mínima requerida:: mestre
+	Site:: <http://llp.bibliopolis.info/confluencia/rc/index.php/rc/index>
+
+[horizontal]
+.Modelo
+	Instituição:: 
+	ISSN::
+	Modalidade de publicação:: 
+	Formação mínima requerida:: 
+	Site:: 
