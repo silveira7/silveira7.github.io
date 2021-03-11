@@ -1,7 +1,7 @@
 Lista de periódicos na área de Linguística
 ==========================================
 :Author: Gustavo Silveira
-:Revision: 12 de fevereiro de 2021
+:Revision: 11 de março de 2021
 
 == A1
 
@@ -24,116 +24,10 @@ Lista de periódicos na área de Linguística
 [horizontal]
 .DELTA: Documentação de Estudos em Linguística Teórica e Aplicada
 	Instituição:: PUCSP
-	ISSN:: 0102-4450 
+	ISSN:: 1678-460X
 	Modalidade de publicação:: trimestral
 	Formação mínima requerida:: doutor
 	Site:: <https://revistas.pucsp.br/delta>
-
-[horizontal]
-.Revista Linguística
-	Instituição:: ALFAL
-	ISSN:: 2079-312X
-	Modalidade de publicação:: ??
-	Formação mínima requerida:: ??
-	Site:: <https://www.mundoalfal.org/es/pt_revista-linguistica-online>
-
-[horizontal]
-.Journal of Portuguese Linguistics
-	Instituição:: Universidade de Lisboa
-	ISSN:: 2397-5563
-	Modalidade de publicação:: contínua
-	Formação mínima requerida:: ??
-	Site:: <https://jpl.letras.ulisboa.pt/>
-
-
-== A2
-
-[horizontal]
-.Cadernos de Linguagem e Sociedade
-	Instituição:: UnB
-	ISSN:: 0104-9712
-	Modalidade de publicação:: semestral
-	Formação mínima requerida:: doutor
-	Site:: <https://periodicos.unb.br/index.php/les/>
-
-[horizontal]
-.Calidoscópio
-	Instituição:: Unisinos
-	ISSN:: 1679-8740
-	Modalidade de publicação:: quadrimestral
-	Formação mínima requerida:: mestre
-	Site:: <http://revistas.unisinos.br/index.php/calidoscopio>
-
-== B1
-
-[horizontal]
-.Revista de Estudos da Linguagem
-	Instituição:: UFMG
-	ISSN:: 2237-2083
-	Periodicidade:: atemáticos trimestrais de fluxo contínuo
-	Formação mínima requerida:: pós-graduandos
-	Site:: <http://www.periodicos.letras.ufmg.br/index.php/relin/index>
-
-[horizontal]
-.Revista da Abralin
-	Instituição:: Abralin
-	Periodicidade:: dois volumes atemáticos de fluxo contínuo e dois dossiês temáticos por chamada pública
-	ISSN:: 0102-7158
-	Formação mínima requerida:: sem exigência
-	Site:: <https://revista.abralin.org/index.php/abralin>
-
-[horizontal]
-.Domínios da Lingu@gem
-	Instituição:: UFU
-	ISSN:: 1980-5799
-	Periodicidade:: trimestral, dois atemáticos e dois temáticos
-	Formação mínima requerida:: pós-graduando
-	Site:: <http://www.seer.ufu.br/index.php/dominiosdelinguagem>
-
-[horizontal]
-.Estudos da Lingua(gem)
-	Instituição:: UESB
-	ISSN:: 1982-0534
-	Periodicidade:: fluxo contínuo
-	Formação mínima requerida:: doutorandos
-	Site:: <https://periodicos2.uesb.br/index.php/estudosdalinguagem/about>
-
-[horizontal]
-.Estudos Linguísticos (Lisboa)
-	Instituição:: Universidade Nova de Lisboa
-	ISSN:: 1647-0346
-
-[horizontal]
-.Fórum Linguístico
-	Instituição:: UFSC
-	ISSN:: 1415-8698
-	Periodicidade:: trimestral de fluxo contínuo
-	Formação mínima requerida:: doutorando
-	Site:: <https://periodicos.ufsc.br/index.php/forum>
-
-[horizontal]
-.Revista LinguíStica
-	Instituição:: URFJ
-	ISSN:: 1808-835X
-	Periodicidade:: bianual
-	Formação mínima requerida:: sem informação
-	Site:: <https://revistas.ufrj.br/index.php/rl/index>
-
-[horizontal]
-.Revista do GEL
-	Instituição:: GEL
-	ISSN:: 1984-591X
-	Periodicidade:: quadrimestral de fluxo contínuo
-	Formação mínima requerida:: doutor
-	Site:: <https://revistas.gel.org.br/rg>
-
-[horizontal]
-.Revista (Con)Textos Linguísticos
-	Instituição:: UFES
-	ISSN:: 1982-291X 
-	Periodicidade:: quadrimestral
-	Formação mínima requerida:: doutor
-	Site:: <https://periodicos.ufes.br/contextoslinguisticos/>
 
 [horizontal]
 .Veredas - Revista de Estudos Linguísticos
@@ -143,15 +37,63 @@ Lista de periódicos na área de Linguística
 	Formação mínima requerida:: pós-graduandos
 	Site:: <https://www.ufjf.br/revistaveredas/>
 
-[horizontal]
-.Entrepalavras
-	Instituição:: UFC
-	ISSN::  2237-6321
-	Modalidade de publicação:: trimestral de fluxo contínuo
-	Formação mínima requerida:: sem informação ??
-	Site:: <http://www.entrepalavras.ufc.br/revista/index.php/Revista>
+== A2
 
-== B2
+[horizontal]
+.Revista Linguística
+	Instituição:: ALFAL
+	ISSN:: 2238-975X
+	Modalidade de publicação:: ??
+	Formação mínima requerida:: ??
+	Site:: <https://www.mundoalfal.org/es/pt_revista-linguistica-online>
+
+[horizontal]
+.Revista de Estudos da Linguagem
+	Instituição:: UFMG
+	ISSN:: 2237-2083  0104-0588
+	Periodicidade:: atemáticos trimestrais de fluxo contínuo
+	Formação mínima requerida:: pós-graduandos
+	Site:: <http://www.periodicos.letras.ufmg.br/index.php/relin/index>
+
+[horizontal]
+.Revista da Abralin
+	Instituição:: Abralin
+	Periodicidade:: dois volumes atemáticos de fluxo contínuo e dois dossiês temáticos por chamada pública
+	ISSN:: 1678-1805  2178-7603
+	Formação mínima requerida:: sem exigência
+	Site:: <https://revista.abralin.org/index.php/abralin>
+
+[horizontal]
+.Domínios de Lingu@gem
+	Instituição:: UFU
+	ISSN:: 1980-5799
+	Periodicidade:: trimestral, dois atemáticos e dois temáticos
+	Formação mínima requerida:: pós-graduando
+	Site:: <http://www.seer.ufu.br/index.php/dominiosdelinguagem>
+
+[horizontal]
+.Fórum Linguístico (Online)
+	Instituição:: UFSC
+	ISSN:: 1984-8412
+	Periodicidade:: trimestral de fluxo contínuo
+	Formação mínima requerida:: doutorando
+	Site:: <https://periodicos.ufsc.br/index.php/forum>
+
+[horizontal]
+.Revista LinguíStica
+	Instituição:: URFJ
+	ISSN:: 2238-975X
+	Periodicidade:: bianual
+	Formação mínima requerida:: sem informação
+	Site:: <https://revistas.ufrj.br/index.php/rl/index>
+
+[horizontal]
+.Revista (Con)Textos Linguísticos
+	Instituição:: UFES
+	ISSN:: 2317-3475
+	Periodicidade:: quadrimestral
+	Formação mínima requerida:: doutor
+	Site:: <https://periodicos.ufes.br/contextoslinguisticos/>
 
 [horizontal]
 .Estudos Linguísticos (São Paulo)
@@ -162,22 +104,40 @@ Lista de periódicos na área de Linguística
 	Site:: <https://revistas.gel.org.br/estudos-linguisticos>
 
 [horizontal]
-.Todas as Letras
+.Todas as Letras (Mackenzie Online)
 	Instituição:: Mackenzie
 	ISSN:: 1980-6914
 	Modalidade de publicação:: contínua
 	Formação mínima requerida:: doutor
 	Site:: <http://editorarevistas.mackenzie.br/index.php/tl>
 
+== A3
+
 [horizontal]
-.Cuadernos de la ALFAL
-	Instituição::
-	ISSN:: 2218-076
-	Modalidade de publicação::
-	Formação mínima requerida:: 
-	Site:: https://www.mundoalfal.org/es/pt_cuadernos_alfal
+.Revista do GEL
+	Instituição:: GEL
+	ISSN:: 1984-591X
+	Periodicidade:: quadrimestral de fluxo contínuo
+	Formação mínima requerida:: doutor
+	Site:: <https://revistas.gel.org.br/rg>
 
+[horizontal]
+.Journal of Portuguese Linguistics
+	Instituição:: Universidade de Lisboa
+	ISSN:: 1645-4537
+	Modalidade de publicação:: contínua
+	Formação mínima requerida:: ??
+	Site:: <https://jpl.letras.ulisboa.pt/>
 
+== A4
+
+[horizontal]
+.Entrepalavras
+	Instituição:: UFC
+	ISSN::  2237-6321
+	Modalidade de publicação:: trimestral de fluxo contínuo
+	Formação mínima requerida:: sem informação ??
+	Site:: <http://www.entrepalavras.ufc.br/revista/index.php/Revista>
 
 [horizontal]
 .Confluência
@@ -187,10 +147,33 @@ Lista de periódicos na área de Linguística
 	Formação mínima requerida:: mestre
 	Site:: <http://llp.bibliopolis.info/confluencia/rc/index.php/rc/index>
 
+== B1
+
 [horizontal]
-.Modelo
-	Instituição:: 
-	ISSN::
-	Modalidade de publicação:: 
-	Formação mínima requerida:: 
-	Site:: 
+.Calidoscópio (Online)
+	Instituição:: Unisinos
+	ISSN:: 2177-6202
+	Modalidade de publicação:: quadrimestral
+	Formação mínima requerida:: mestre
+	Site:: <http://revistas.unisinos.br/index.php/calidoscopio>
+
+[horizontal]
+.Cadernos de Linguagem e Sociedade
+	Instituição:: UnB
+	ISSN:: 2179-4790
+	Modalidade de publicação:: semestral
+	Formação mínima requerida:: doutor
+	Site:: <https://periodicos.unb.br/index.php/les/>
+
+[horizontal]
+.Estudos da Lingua(gem)
+	Instituição:: UESB
+	ISSN:: 1808-1355  1982-0534
+	Periodicidade:: fluxo contínuo
+	Formação mínima requerida:: doutorandos
+	Site:: <https://periodicos2.uesb.br/index.php/estudosdalinguagem/about>
+
+[horizontal]
+.Estudos Linguísticos (Lisboa)
+	Instituição:: Universidade Nova de Lisboa
+	ISSN:: 1647-0346
