@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-05-05 qua 14:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Explicação das medidas</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Gustavo Silveira" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Explicação das medidas</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org3f3abdb">1. Camada de tons</a>
+<ul>
+<li><a href="#orgbf2dd83">1.1. Tipo do tom (<i>tonetype</i>)</a></li>
+<li><a href="#orgd4747af">1.2. Tempo (<i>time</i>)</a></li>
+<li><a href="#orgf63d848">1.3. Alinhamento tonal (<i>alignVV</i>)</a></li>
+<li><a href="#org3980306">1.4. F0 média da unidade VV (<i>meanf0VV</i>)</a></li>
+</ul>
+</li>
+<li><a href="#org0378362">2. Camada de vogais</a>
+<ul>
+<li><a href="#org1773a9b">2.1. Vogal (<i>vowel</i>)</a></li>
+<li><a href="#orgeb7a80a">2.2. Diferença entre H1 e H2 (<i>H1H2</i>)</a></li>
+<li><a href="#org41d65d1">2.3. Pico de Proeminência Cepstral (<i>CPP</i>)</a></li>
+</ul>
+</li>
+<li><a href="#orgbc07986">3. Camada de unidades VV</a>
+<ul>
+<li><a href="#org6c4838a">3.1. Delimitação de SG</a></li>
+<li><a href="#org9426205">3.2. Grau de fronteira</a></li>
+<li><a href="#org8265628">3.3. Número de unidades VV em cada SG (<i>numberVVunits</i>)</a></li>
+<li><a href="#org963338f">3.4. Duração bruta do SG (<i>stressgroupduration</i>)</a></li>
+<li><a href="#org798ec6d">3.5. Duração normalizada e filtrada do SG (<i>finalzfilt</i>)</a></li>
+</ul>
+</li>
+<li><a href="#org0f5320c">4. Camada de pausas</a>
+<ul>
+<li><a href="#org5534837">4.1. Tipo de pausa (<i>type</i>)</a></li>
+<li><a href="#orgf12487c">4.2. Intervalo entre pausas (<i>IPI</i>)</a></li>
+<li><a href="#org917e7b7">4.3. Duração da pausa (<i>durSIL</i>)</a></li>
+</ul>
+</li>
+<li><a href="#org6700d8a">5. Camada de chunks</a>
+<ul>
+<li><a href="#org88bdf53">5.1. Medidas gerais da F0</a>
+<ul>
+<li><a href="#org3cf28eb">5.1.1. Mediana da F0 (<i>f0med</i>)</a></li>
+<li><a href="#org389c974">5.1.2. Desvio padrão da F0 (<i>f0sd</i>)</a></li>
+<li><a href="#org40b2184">5.1.3. Valor mínimo da F0 (<i>f0min</i>)</a></li>
+<li><a href="#org7bfa973">5.1.4. Valor máximo da F0 (<i>f0max</i>)</a></li>
+<li><a href="#orgbab8ff4">5.1.5. Semi-amplitude entre quartis (<i>f0SAQ</i>)</a></li>
+</ul>
+</li>
+<li><a href="#orgd3bc728">5.2. Picos de F0</a>
+<ul>
+<li><a href="#orgc6b5a54">5.2.1. Desvio padrão dos picos da F0 (<i>sdf0peak</i>)</a></li>
+<li><a href="#org9445ce6">5.2.2. Desvio padrão da largura dos picos da F0 (<i>sdf0peakwidth</i>)</a></li>
+<li><a href="#org927051b">5.2.3. Taxas de picos da F0 (<i>f0peak<sub>rate</sub></i>)</a></li>
+<li><a href="#org41fb678">5.2.4. Desvio padrão das posições dos picos da F0 (<i>sdtf0peak</i>)</a></li>
+</ul>
+</li>
+<li><a href="#orgcb47856">5.3. Derivadas de F0</a>
+<ul>
+<li><a href="#orgf619f02">5.3.1. Média de F0 da 1a derivada das derivadas positivas (<i>df0posmean</i>)</a></li>
+<li><a href="#org70e32ee">5.3.2. Média de F0 da 1a derivada das derivadas negativas (<i>df0negmean</i>)</a></li>
+<li><a href="#orgfcb10f1">5.3.3. Desvio padrão de F0 da 1a derivada das derivadas positivas (<i>df0sdpos</i>)</a></li>
+<li><a href="#orgfe84c81">5.3.4. Desvio padrão de F0 da 1a derivada das derivadas negativas (<i>df0sdneg</i>)</a></li>
+</ul>
+</li>
+<li><a href="#org239e95c">5.4. Qualidade de voz</a>
+<ul>
+<li><a href="#org2142db3">5.4.1. Ênfase espectral (<i>emph</i>)</a></li>
+<li><a href="#org8ebb1a0">5.4.2. Coeficiente de variação de intensidade (<i>cvint</i>)</a></li>
+<li><a href="#org8493735">5.4.3. LTAS slope between bands 0-1000 Hz and 1000/4000 Hz (<i>slLTASmed</i>)</a></li>
+<li><a href="#orga07cbde">5.4.4. LTAS slope between bands 0-1000 Hz and 4000/8000 Hz (<i>slLTAShigh</i>)</a></li>
+<li><a href="#org6b56ce3">5.4.5. Relação ruído-harmônico (<i>hnr</i>)</a></li>
+<li><a href="#org8559c86">5.4.6. Soft phonation index (<i>SPI</i>)</a></li>
+<li><a href="#org24d55e5">5.4.7. Shimmer local (<i>shimmer</i>)</a></li>
+<li><a href="#orgaabde5e">5.4.8. Jitter local (<i>jitter</i>)</a></li>
+</ul>
+</li>
+<li><a href="#org99af185">5.5. Cadência da fala</a>
+<ul>
+<li><a href="#org69d3eed">5.5.1. Taxa de elocução (<i>sr</i>)</a></li>
+<li><a href="#org400b1dc">5.5.2. Taxa de articulação (<i>ar</i>)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<hr />
+
+<p>
+SG = Stress group = Grupo acentual
+</p>
+
+<p>
+F0 = Frequência fundamental
+</p>
+
+<p>
+H1 = Primeiro harmônico
+</p>
+
+<p>
+H2 = Segundo harmônico
+</p>
+
+<p>
+VV = Intervalo de vogal a vogal
+</p>
+
+<hr />
+
+<p>
+O script extrai medidas prosódicas de <b>cinco trilhas</b> de anotação linguística:
+</p>
+<ul class="org-ul">
+<li>Tons</li>
+<li>Vogais</li>
+<li>Unidades VV</li>
+<li>Pausas</li>
+<li>Chunks</li>
+</ul>
+
+<hr />
+
+<div id="outline-container-org3f3abdb" class="outline-2">
+<h2 id="org3f3abdb"><span class="section-number-2">1</span> Camada de tons</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgbf2dd83" class="outline-3">
+<h3 id="orgbf2dd83"><span class="section-number-3">1.1</span> Tipo do tom (<i>tonetype</i>)</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Informa se o tom é do tipo H, L, HL, etc.
+</p>
+
+<p>
+<b>Unidade:</b> tipos tonais
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd4747af" class="outline-3">
+<h3 id="orgd4747af"><span class="section-number-3">1.2</span> Tempo (<i>time</i>)</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Informa a posição temporal do tom na gravação em segundos.
+</p>
+
+<p>
+<b>Unidade:</b> segundos
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf63d848" class="outline-3">
+<h3 id="orgf63d848"><span class="section-number-3">1.3</span> Alinhamento tonal (<i>alignVV</i>)</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Informa o alinhamento do tom com relação ao início da unidade VV,
+dividido pela duração da unidade VV.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3980306" class="outline-3">
+<h3 id="org3980306"><span class="section-number-3">1.4</span> F0 média da unidade VV (<i>meanf0VV</i>)</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Média da F0 da unidade VV em que se encontra o tom.
+</p>
+
+<p>
+<b>Unidade:</b> Hz
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0378362" class="outline-2">
+<h2 id="org0378362"><span class="section-number-2">2</span> Camada de vogais</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org1773a9b" class="outline-3">
+<h3 id="org1773a9b"><span class="section-number-3">2.1</span> Vogal (<i>vowel</i>)</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Indica a vogal.
+</p>
+
+<p>
+<b>Unidade:</b> vogais da língua
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgeb7a80a" class="outline-3">
+<h3 id="orgeb7a80a"><span class="section-number-3">2.2</span> Diferença entre H1 e H2 (<i>H1H2</i>)</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Indica a diferença de energia entre o primeiro (H1) e o segundo
+harmônico (H2) na posição central do intervalo vocálico.
+</p>
+
+<p>
+<b>Unidade:</b> dB
+</p>
+</div>
+</div>
+
+<div id="outline-container-org41d65d1" class="outline-3">
+<h3 id="org41d65d1"><span class="section-number-3">2.3</span> Pico de Proeminência Cepstral (<i>CPP</i>)</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+O valor em dB do Pico de Proeminência Cepstral na posição central do
+intervalo vocálico.
+</p>
+
+<p>
+<b>Unidade:</b> dB
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbc07986" class="outline-2">
+<h2 id="orgbc07986"><span class="section-number-2">3</span> Camada de unidades VV</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org6c4838a" class="outline-3">
+<h3 id="org6c4838a"><span class="section-number-3">3.1</span> Delimitação de SG</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+A partir das unidades VV, o script segmenta automaticamente os grupos acentuais.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9426205" class="outline-3">
+<h3 id="org9426205"><span class="section-number-3">3.2</span> Grau de fronteira</h3>
+</div>
+
+<div id="outline-container-org8265628" class="outline-3">
+<h3 id="org8265628"><span class="section-number-3">3.3</span> Número de unidades VV em cada SG (<i>numberVVunits</i>)</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+<b>Unidade:</b> unidades VV  
+</p>
+</div>
+</div>
+
+<div id="outline-container-org963338f" class="outline-3">
+<h3 id="org963338f"><span class="section-number-3">3.4</span> Duração bruta do SG (<i>stressgroupduration</i>)</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+<b>Unidade:</b> segundos
+</p>
+</div>
+</div>
+
+<div id="outline-container-org798ec6d" class="outline-3">
+<h3 id="org798ec6d"><span class="section-number-3">3.5</span> Duração normalizada e filtrada do SG (<i>finalzfilt</i>)</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+<b>Unidade:</b> z-score filtrado com média móvel de 5 pontos
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0f5320c" class="outline-2">
+<h2 id="org0f5320c"><span class="section-number-2">4</span> Camada de pausas</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org5534837" class="outline-3">
+<h3 id="org5534837"><span class="section-number-3">4.1</span> Tipo de pausa (<i>type</i>)</h3>
+</div>
+<div id="outline-container-orgf12487c" class="outline-3">
+<h3 id="orgf12487c"><span class="section-number-3">4.2</span> Intervalo entre pausas (<i>IPI</i>)</h3>
+</div>
+<div id="outline-container-org917e7b7" class="outline-3">
+<h3 id="org917e7b7"><span class="section-number-3">4.3</span> Duração da pausa (<i>durSIL</i>)</h3>
+<div class="outline-text-3" id="text-4-3">
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6700d8a" class="outline-2">
+<h2 id="org6700d8a"><span class="section-number-2">5</span> Camada de chunks</h2>
+<div class="outline-text-2" id="text-5">
+<hr />
+</div>
+
+<div id="outline-container-org88bdf53" class="outline-3">
+<h3 id="org88bdf53"><span class="section-number-3">5.1</span> Medidas gerais da F0</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org3cf28eb" class="outline-4">
+<h4 id="org3cf28eb"><span class="section-number-4">5.1.1</span> Mediana da F0 (<i>f0med</i>)</h4>
+</div>
+
+<div id="outline-container-org389c974" class="outline-4">
+<h4 id="org389c974"><span class="section-number-4">5.1.2</span> Desvio padrão da F0 (<i>f0sd</i>)</h4>
+</div>
+
+<div id="outline-container-org40b2184" class="outline-4">
+<h4 id="org40b2184"><span class="section-number-4">5.1.3</span> Valor mínimo da F0 (<i>f0min</i>)</h4>
+</div>
+
+<div id="outline-container-org7bfa973" class="outline-4">
+<h4 id="org7bfa973"><span class="section-number-4">5.1.4</span> Valor máximo da F0 (<i>f0max</i>)</h4>
+</div>
+
+<div id="outline-container-orgbab8ff4" class="outline-4">
+<h4 id="orgbab8ff4"><span class="section-number-4">5.1.5</span> Semi-amplitude entre quartis (<i>f0SAQ</i>)</h4>
+<div class="outline-text-4" id="text-5-1-5">
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd3bc728" class="outline-3">
+<h3 id="orgd3bc728"><span class="section-number-3">5.2</span> Picos de F0</h3>
+<div class="outline-text-3" id="text-5-2">
+</div>
+<div id="outline-container-orgc6b5a54" class="outline-4">
+<h4 id="orgc6b5a54"><span class="section-number-4">5.2.1</span> Desvio padrão dos picos da F0 (<i>sdf0peak</i>)</h4>
+</div>
+
+<div id="outline-container-org9445ce6" class="outline-4">
+<h4 id="org9445ce6"><span class="section-number-4">5.2.2</span> Desvio padrão da largura dos picos da F0 (<i>sdf0peakwidth</i>)</h4>
+</div>
+
+<div id="outline-container-org927051b" class="outline-4">
+<h4 id="org927051b"><span class="section-number-4">5.2.3</span> Taxas de picos da F0 (<i>f0peak<sub>rate</sub></i>)</h4>
+</div>
+
+<div id="outline-container-org41fb678" class="outline-4">
+<h4 id="org41fb678"><span class="section-number-4">5.2.4</span> Desvio padrão das posições dos picos da F0 (<i>sdtf0peak</i>)</h4>
+<div class="outline-text-4" id="text-5-2-4">
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcb47856" class="outline-3">
+<h3 id="orgcb47856"><span class="section-number-3">5.3</span> Derivadas de F0</h3>
+<div class="outline-text-3" id="text-5-3">
+</div>
+<div id="outline-container-orgf619f02" class="outline-4">
+<h4 id="orgf619f02"><span class="section-number-4">5.3.1</span> Média de F0 da 1a derivada das derivadas positivas (<i>df0posmean</i>)</h4>
+</div>
+
+<div id="outline-container-org70e32ee" class="outline-4">
+<h4 id="org70e32ee"><span class="section-number-4">5.3.2</span> Média de F0 da 1a derivada das derivadas negativas (<i>df0negmean</i>)</h4>
+</div>
+
+<div id="outline-container-orgfcb10f1" class="outline-4">
+<h4 id="orgfcb10f1"><span class="section-number-4">5.3.3</span> Desvio padrão de F0 da 1a derivada das derivadas positivas (<i>df0sdpos</i>)</h4>
+</div>
+
+<div id="outline-container-orgfe84c81" class="outline-4">
+<h4 id="orgfe84c81"><span class="section-number-4">5.3.4</span> Desvio padrão de F0 da 1a derivada das derivadas negativas (<i>df0sdneg</i>)</h4>
+<div class="outline-text-4" id="text-5-3-4">
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org239e95c" class="outline-3">
+<h3 id="org239e95c"><span class="section-number-3">5.4</span> Qualidade de voz</h3>
+<div class="outline-text-3" id="text-5-4">
+</div>
+<div id="outline-container-org2142db3" class="outline-4">
+<h4 id="org2142db3"><span class="section-number-4">5.4.1</span> Ênfase espectral (<i>emph</i>)</h4>
+</div>
+
+<div id="outline-container-org8ebb1a0" class="outline-4">
+<h4 id="org8ebb1a0"><span class="section-number-4">5.4.2</span> Coeficiente de variação de intensidade (<i>cvint</i>)</h4>
+</div>
+
+<div id="outline-container-org8493735" class="outline-4">
+<h4 id="org8493735"><span class="section-number-4">5.4.3</span> LTAS slope between bands 0-1000 Hz and 1000/4000 Hz (<i>slLTASmed</i>)</h4>
+</div>
+
+<div id="outline-container-orga07cbde" class="outline-4">
+<h4 id="orga07cbde"><span class="section-number-4">5.4.4</span> LTAS slope between bands 0-1000 Hz and 4000/8000 Hz (<i>slLTAShigh</i>)</h4>
+</div>
+
+<div id="outline-container-org6b56ce3" class="outline-4">
+<h4 id="org6b56ce3"><span class="section-number-4">5.4.5</span> Relação ruído-harmônico (<i>hnr</i>)</h4>
+</div>
+
+<div id="outline-container-org8559c86" class="outline-4">
+<h4 id="org8559c86"><span class="section-number-4">5.4.6</span> Soft phonation index (<i>SPI</i>)</h4>
+</div>
+
+<div id="outline-container-org24d55e5" class="outline-4">
+<h4 id="org24d55e5"><span class="section-number-4">5.4.7</span> Shimmer local (<i>shimmer</i>)</h4>
+</div>
+
+<div id="outline-container-orgaabde5e" class="outline-4">
+<h4 id="orgaabde5e"><span class="section-number-4">5.4.8</span> Jitter local (<i>jitter</i>)</h4>
+<div class="outline-text-4" id="text-5-4-8">
+<hr />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org99af185" class="outline-3">
+<h3 id="org99af185"><span class="section-number-3">5.5</span> Cadência da fala</h3>
+<div class="outline-text-3" id="text-5-5">
+</div>
+<div id="outline-container-org69d3eed" class="outline-4">
+<h4 id="org69d3eed"><span class="section-number-4">5.5.1</span> Taxa de elocução (<i>sr</i>)</h4>
+</div>
+
+<div id="outline-container-org400b1dc" class="outline-4">
+<h4 id="org400b1dc"><span class="section-number-4">5.5.2</span> Taxa de articulação (<i>ar</i>)</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Gustavo Silveira</p>
+<p class="date">Created: 2021-05-05 qua 14:57</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
