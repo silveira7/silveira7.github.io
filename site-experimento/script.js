@@ -133,14 +133,14 @@ var i = -1;
 function nextSentence () {    
     if (i == 59) {
         i += 1;
-        document.getElementById("index").innerHTML = i;        
+        // document.getElementById("index").innerHTML = i;        
         document.getElementById("demo").innerHTML = "FIM";
     }
     else if (i == 60) {
         document.getElementById("demo").innerHTML = "FIM";        
     } else {
         i += 1;
-        document.getElementById("index").innerHTML = i;        
+        // document.getElementById("index").innerHTML = i;        
         document.getElementById("demo").innerHTML = todasFrases[i];
     }
 }; 
@@ -148,14 +148,14 @@ function nextSentence () {
 function previousSentence () {    
     if (i == 0) {
         i -= 1;
-        document.getElementById("index").innerHTML = i;        
+        // document.getElementById("index").innerHTML = i;        
         document.getElementById("demo").innerHTML = "INÍCIO";
     }
     else if (i == -1) {
         document.getElementById("demo").innerHTML = "INÍCIO";
     } else {
         i -= 1;
-        document.getElementById("index").innerHTML = i;        
+        // document.getElementById("index").innerHTML = i;        
         document.getElementById("demo").innerHTML = todasFrases[i];
     }
 }; 
