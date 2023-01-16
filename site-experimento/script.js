@@ -1,12 +1,15 @@
 let alvos = [
+    "verdadeiro",
     "verdade",
     "conversa",
     "dever",
     "cadáver",
-    "amargor",
+    "amargurado",
+    "amargura",
     "amargo",
     "pomar",
     "açúcar",
+    "mortadela",
     "mortal",
     "morte",
     "amor",
@@ -32,6 +35,11 @@ let distratores = [
     "diagrama",
     "ginásio",
     "influência",
+    "objeto",
+    "pinheiro",
+    "sinfonia",
+    "mecânico",
+    "número",
 ];
 
 
@@ -59,11 +67,11 @@ let distrator1 = "";
 let distrator2 = "";
 
 for (let i = 0; i < alvos.length; i++) {
-    distrator1 = distratores[getRndInteger(0,17)];
+    distrator1 = distratores[getRndInteger(0,22)];
     // console.log(distrator1);
     
     while (containsObject(distrator1, used1)) {
-        distrator1 = distratores[getRndInteger(0,17)];
+        distrator1 = distratores[getRndInteger(0,22)];
     }
 
     used1.push(distrator1);
@@ -71,10 +79,10 @@ for (let i = 0; i < alvos.length; i++) {
     frase1 = `Digo ${alvos[i]} baixinho. Mas digo ${distrator1} bem alto.`;
     frases1.push(frase1);
 
-    distrator2 = distratores[getRndInteger(0,17)];
+    distrator2 = distratores[getRndInteger(0,22)];
     
     while (containsObject(distrator2, used2)) {
-        distrator2 = distratores[getRndInteger(0,17)];
+        distrator2 = distratores[getRndInteger(0,22)];
     }
 
     used2.push(distrator2);
@@ -89,23 +97,23 @@ distrator1 = "";
 distrator2 = "";
 let frasesDistratoras = [];
 
-for (let i = 0; i < 18; i++) {
-    distrator1 = distratores[getRndInteger(0,17)];
-    distrator2 = distratores[getRndInteger(0,17)];
+for (let i = 0; i < 23; i++) {
+    distrator1 = distratores[getRndInteger(0,22)];
+    distrator2 = distratores[getRndInteger(0,22)];
 
     while (distrator1 == distrator2) {
-        distrator1 = distratores[getRndInteger(0,17)];
-        distrator2 = distratores[getRndInteger(0,17)];
+        distrator1 = distratores[getRndInteger(0,22)];
+        distrator2 = distratores[getRndInteger(0,22)];
     }
 
     frasesDistratoras.push(`Digo baixinho ${distrator1}. Mas digo ${distrator2} bem alto.`);
     
-    distrator1 = distratores[getRndInteger(0,17)];
-    distrator2 = distratores[getRndInteger(0,17)];
+    distrator1 = distratores[getRndInteger(0,22)];
+    distrator2 = distratores[getRndInteger(0,22)];
 
     while (distrator1 == distrator2) {
-        distrator1 = distratores[getRndInteger(0,17)];
-        distrator2 = distratores[getRndInteger(0,17)];
+        distrator1 = distratores[getRndInteger(0,22)];
+        distrator2 = distratores[getRndInteger(0,22)];
     }
 
     frasesDistratoras.push(`Digo ${distrator1} baixinho. Mas digo ${distrator2} bem alto.`);
@@ -127,16 +135,15 @@ for (let i = todasFrases.length - 1; i > 0; i--) {
 
 console.log(todasFrases);
 
-
 var i = -1;
 
 function nextSentence () {    
-    if (i == 59) {
+    if (i == 75) {
         i += 1;
         // document.getElementById("index").innerHTML = i;        
         document.getElementById("demo").innerHTML = "FIM";
     }
-    else if (i == 60) {
+    else if (i == 76) {
         document.getElementById("demo").innerHTML = "FIM";        
     } else {
         i += 1;
